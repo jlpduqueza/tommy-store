@@ -1,0 +1,12 @@
+    	List<Role> roleList = new ArrayList<>();
+    	List<Country> countryList = new ArrayList<>();
+    	
+    	for (Role role : Role.values()) {
+    		roleList.add(role);
+    	}
+    	
+    	for (Country country : Country.values()) {
+    		countryList.add(country);
+    	}
+    	
+    	

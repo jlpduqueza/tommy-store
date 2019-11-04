@@ -1,0 +1,53 @@
+db.url=jdbc:mysql://localhost:3306/tommy_store
+db.username=root
+db.password=password
+
+inventory.nstock=9
+popularProducts.nDays=30
+newUsers.nHours=24
+
+invalid.user = Invalid username and password
+invalid.savingUser = Invalid username and password
+invalid.emailUsed = Email already used.
+invalid.pictureUsed = Picture already used.
+
+invalid.productNameUsed = Product name already used in this category.
+
+invalid.categoryNameUsed = Category name already used.
+invalid.categoryDeletion = Failed to delete category, some products are using this category.
+invalid.categoryDeletion = Failed to delete product, some orders are using this product.
+
+invalid.invalidPrice = Invalid price input.
+
+invalid.invalidQuantity = Invalid quantity input.
+
+invalid.zeroQuantity = Quantity to add must greater than 0.
+invalid.noCart = You have no item in cart.
+
+insufficient.quantity = Insufficient stock.
+invalid.categoryNotFound = Category Not Found.
+invalid.passwordNotMatch = Password do not match.
+invalid.notQualifiedForCheckout = Not Qualified for checkout, check your shipping address.
+invalid.forCheckout = Inputs are not satisfied, check your payment method and shipping address.
+invalid.shippingAddress = Inputs are not satisfied, ***
+
+success.signUp = Success signing-up.
+
+success.addingAdmin = Success adding new administrator.
+success.addingCategory = Success adding new category.
+success.addingProduct = Success adding new product.
+success.deletingProduct = Product successfully deleted.
+success.editingProduct = Product successfully updated.
+success.deletingCategory = Category successfully deleted.
+success.editingCategory = Category successfully updated.
+success.addingStock = Stock successfully added.
+
+success.addingCartItem = Successfully added to cart.
+success.editingCartItem = Cart item successfully updated.
+success.clearingCart = Cart successfully cleared.
+success.deletingCartItem = Cart item successfully deleted.
+success.addingCreditCard = Success adding new credit card.
+success.addingAddress = Success adding new shipping address.
+success.deletingCreditCard = Credit card successfully deleted.
+success.deletingAddress = Shipping address successfully deleted.
+success.checkOut = Cart successfully checked out.
